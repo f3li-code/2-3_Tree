@@ -1,6 +1,7 @@
 # 2-3_Tree
 
 ## Introduction
+* Program supports string data type
 * Program supports 2-3 tree insertion, search and print(pre, in, post order)
 
 ## Image from Wikipedia
