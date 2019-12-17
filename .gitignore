@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# unused files
+./header/Node.cpp
+./header/Tree.cpp

@@ -1,3 +1,5 @@
+/*
+
 #include "Tree.h"
 #include <iostream>
 using namespace std;
@@ -9,7 +11,6 @@ Tree::Tree()
 
 void Tree::preOrder() const{
     return preOrder(root);
-    cout << endl;
 }
 void Tree::preOrder(Node* n) const{
     if (n == nullptr){
@@ -28,7 +29,6 @@ void Tree::preOrder(Node* n) const{
 
 void Tree::inOrder() const{
     return inOrder(root);
-    cout << endl;
 }
 void Tree::inOrder(Node* n) const{
     if (n == nullptr){
@@ -43,12 +43,11 @@ void Tree::inOrder(Node* n) const{
         n->printLarge();
     }
     inOrder(n->right);
-
+    return;
 }
 
 void Tree::postOrder() const{
     return postOrder(root);
-    cout << endl;
 }
 void Tree::postOrder(Node* n) const{
     if (n == nullptr){
@@ -242,7 +241,4 @@ void Tree::splitInternal(Node* giver, Node* target, const string& key){
     }
 }
 
-
-
-
-
+*/
